@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong Array & Looping Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ping Pong</h1>
+      <br>
+
+      <p>The tool will count up to your number from 1 with the following exceptions:</p>
+      <br>
+      <ul>
+        <li>Numbers divisible by 3 are replaced with "ping"</li>
+        <li>Numbers divisible by 5 are replaced with "pong"</li>
+        <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+        <br>
+      <form id="ping">
+        <div class="form-group">
+          <label for="number">Enter your number below:</label>
+          <input id="number" type="text">
+        </div>
+
+        <button type="submit" class="button">Play Ping Pong!</button>
+      </form>
+
+      <div id="result">
+        <ul>
+        <span class="array"></span>
+        <br>
+      </div>
+    </div>
+  </body>
+</html>
