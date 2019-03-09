@@ -8,7 +8,7 @@ var listNumber = function(number) {
     } else if (i % 5 === 0) {
       $(".array").append("<li>" + 'pong');
       //numbers.push('pong');
-    } else if (i % 15 === 0) {
+    } else if ((i % 3 === 0) && (i % 5 === 0)) {
       $(".array").append("<li>" + 'pingpong');
     //  numbers.push('pingpong');
     } else {
