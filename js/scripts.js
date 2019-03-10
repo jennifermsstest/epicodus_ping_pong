@@ -18,16 +18,16 @@ var listNumber = function(number) {
   }
   };
 
-
-
 // User Interface Logic
 $(document).ready(function() {
   $("form#ping").submit(function(event) {
     var number = parseInt($("input#number").val());
     var result = listNumber(number)
+    textfield1 = result
 
 $("#result").show();
 $("#ping")[0].reset();
+onSubmit="window.location.reload();"
 //$(".reset")[0].reset();
   event.preventDefault();
 
