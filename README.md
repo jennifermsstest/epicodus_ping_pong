@@ -32,6 +32,9 @@ Clone and enjoy!
 * Meets conditions above and if number is divisible by 15, return pingpong
   * Input: 17
   * Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17
+* Meets conditions above and clears previous content before a new number is entered.
+  * Input: 2 || 3:
+  * Output: 1, 2 || 1, 2, ping 
 
 
 ## Known Bugs

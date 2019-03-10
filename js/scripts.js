@@ -6,22 +6,22 @@ var listNumber = function(number) {
       //numbers.push('ping');
       $("#array").append("<li>" + 'pingpong');
       //$(".array").innerHTML("<li>" + 'pingpong');
-      //return "<li>" + 'pingpong';
+
     } else if (i % 3 === 0) {
       //$(".array").print("<li>" + 'ping');
       $("#array").append("<li>" + 'ping');
       //numbers.push('pong');
-      //return "<li>" + 'ping';
+        //return("<li>" + 'ping');
     } else if (i % 5 === 0) {
       //$(".array").print("<li>" + 'pong');
       $("#array").append("<li>" + 'pong');
-      //return "<li>" + 'pong';
+      //return("<li>" + 'pong');
     //  numbers.push('pingpong');
     } else {
       //$(".array").print("<li>" + (i));
       $("#array").append("<li>" + (i));
       //numbers.push(i);
-      //return "<li>" + (i);
+      //return("<li>" + (i));
       }
   } //$("#array")[0].reload();
   };
@@ -34,8 +34,10 @@ $(document).ready(function() {
     var result = listNumber(number)
 
 $("#result").show();
+
+$("#array").text(result);
 $("#ping")[0].reset();
-$(".array").remove();
+//$("#array").empty();
 //onSubmit="window.location.reload();"
 //$(".reset")[0].reset();
 
