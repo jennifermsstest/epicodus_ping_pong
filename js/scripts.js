@@ -36,7 +36,7 @@ $(document).ready(function() {
 $("#result").show();
 
 $("#array").text(result);
-$("#ping")[0].reset();
+//$("#ping")[0].reset();
 //$("#array").empty();
 //onSubmit="window.location.reload();"
 //$(".reset")[0].reset();
